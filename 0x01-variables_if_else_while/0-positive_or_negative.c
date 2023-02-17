@@ -13,7 +13,7 @@ int main(void)
     /* your code goes there */
     if (n>0)
     {
-       printf("a is less than 20\n" );
+       printf(" n is positive" );
     }else if (n=0)    
     {
        printf("n is zero");
