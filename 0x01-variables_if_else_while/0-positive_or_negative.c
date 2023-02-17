@@ -14,7 +14,7 @@ int main(void)
     if (n>0)
     {
        printf("a is less than 20\n" );
-    }else if (n = 0)    
+    }else if (n=0)    
     {
        printf("n is zero");
     }else
@@ -22,7 +22,7 @@ int main(void)
        printf("n is negative");
     }
     
-    
+   
     
     return (0);
 }
