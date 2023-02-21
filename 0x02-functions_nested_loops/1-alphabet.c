@@ -5,12 +5,12 @@
  *
  * Return: void
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	char lowercase;
 
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-		_putchar(lowercase);
+		putchar(lowercase);
 
-	_putchar('\n');
+	putchar('\n');
 }
