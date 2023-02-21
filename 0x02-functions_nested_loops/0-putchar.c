@@ -1,7 +1,16 @@
-#include <stdio.h>
-/*print _putchar followed by new line*/ 
-int main(void)
-{ printf("_putchar\n");
+#include <unistd.h>
+#include "main.h"
 
-        return (0);
+/**
+ * main- Entry point
+ *
+ * Description: Print character using _putchar
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	int tg = ("_putchar");
+	putchar(tg);
+	return 0
 }
