@@ -1,11 +1,12 @@
-#include <stdio.h>
-int main ()
+#include "main.h"
+
+/**
+ * reset_to_98 - changes a parameter's value to 98
+ * @n: - the parameter to be changed
+ *
+ */
+
+void reset_to_98(int *n)
 {
-    int x = 65;
-    int *n;
-    n=x;
-    printf("%d\n" , n);
-    n= 58;
-    printf("%d" , n);
-    
+		*n = 98;
 }
